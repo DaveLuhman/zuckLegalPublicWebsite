@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -532,6 +532,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .services {
   position: relative;
   padding: 30px;
+  height: 400px;
   margin-bottom: 60px;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.07);
