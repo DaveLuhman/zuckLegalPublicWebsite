@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
 
-dotenv.config({ path: './config/config.env' }); //dotenv file
+dotenv.config({ path: 'src/config/.env' }); //dotenv file
 const PORT = process.env.PORT || 3000
 const app = express();
 
