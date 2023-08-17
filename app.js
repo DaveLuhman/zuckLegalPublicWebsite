@@ -10,5 +10,5 @@ const app = express();
 if(process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
 };
-app.use('/', express.static('public'));
+app.use('/', express.static('./src/public'));
 app.listen(PORT), console.log(`Server running on ${process.env.NODE_ENV} on port ${PORT}`);
