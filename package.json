@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "build:css": "node-sass /public/sass/style.css /public/css/style.css"
+    "build:css": "npx node-sass ./src/public/sass -o ./src/public/css",
+    "watch:css": "npx node-sass -w ./src/public/sass -o ./src/public/css"
   },
   "repository": {
     "type": "git",

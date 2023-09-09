@@ -685,7 +685,9 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin-bottom: 60px;
 	background: $brand-white;
 	border: 1px solid rgba($brand-black,.07);
-
+	.row{
+		justify-content: center;
+	}
 	@include transition(.3s);
 	h3{
 		font-weight: 400;
