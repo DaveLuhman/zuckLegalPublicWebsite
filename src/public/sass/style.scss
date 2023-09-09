@@ -3,7 +3,7 @@ $font-primary: 'Playfair Display', Georgia, serif;
 
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
@@ -54,16 +54,16 @@ $form-group-margin-bottom:       30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -78,7 +78,7 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -90,10 +90,10 @@ $form-group-margin-bottom:       30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -102,7 +102,7 @@ $form-group-margin-bottom:       30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 
@@ -121,9 +121,9 @@ body {
 	height: 100%;
 	@include transition(.5s);
 	.offcanvas & {
-		overflow: hidden;	
+		overflow: hidden;
 		position: absolute;
-		
+
 		&:after {
 			@include transition(2s);
 			position: absolute;
@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6, figure {
 						border-width: 8px;
 						margin-left: -8px;
 					}
-					
+
 					li {
 						display: block;
 						margin-bottom: 7px;
@@ -344,14 +344,14 @@ h1, h2, h3, h4, h5, h6, figure {
 		display: table;
 		text-align: center;
 		background: $brand-white;
-		
+
 		-webkit-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-ms-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-o-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		@include border-radius(50%);
-		
+
 		i {
 			text-align: center;
 			display: table-cell;
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	&:hover {
 		.overlay {
-			background: rgba(0, 0, 0, .7);		
+			background: rgba(0, 0, 0, .7);
 		}
 		a {
 			-webkit-transform: scale(1.1);
@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			-ms-transform: scale(1.1);
 			-o-transform: scale(1.1);
 			transform: scale(1.1);
-			
+
 		}
 	}
 }
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 	.flexslider {
 		border: none;
-		
+
 		z-index: 1;
 		margin-bottom: 0;
 
@@ -681,7 +681,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .services{
 	position: relative;
-	padding: 30px;
+	padding: 15px;
 	margin-bottom: 60px;
 	background: $brand-white;
 	border: 1px solid rgba($brand-black,.07);
@@ -705,9 +705,9 @@ h1, h2, h3, h4, h5, h6, figure {
 		i {
 			display: table-cell;
 			vertical-align: middle;
-			height: 70px;
-			font-size: 60px;
-			line-height: 40px;
+			height: 100px;
+			font-size: 45px;
+			line-height: 35px;
 			color: rgba($brand-secondary,7);
 		}
 	}
@@ -767,7 +767,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 			&.address {
 				&:before {
-					font-size: 30px;	
+					font-size: 30px;
 					content: "\e9d1";
 				}
 			}
@@ -848,7 +848,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		figure{
 			margin-bottom: 10px;
 			@include inline-block;
-			
+
 			img {
 				width: 140px;
 				@include border-radius(50%);
@@ -864,7 +864,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			@media screen and (max-width: $screen-md) {
 				width: 100%;
 			}
-			
+
 		}
 
 	}
@@ -894,7 +894,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.colorlib-staff { 
+.colorlib-staff {
 	text-align: center;
 	margin-bottom: 30px;
 	img {
@@ -935,7 +935,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		right: 0;
 		background: rgba($brand-black,.7);
 	}
-	
+
 	.colorlib-heading {
 		h2 {
 			line-height: 80px;
@@ -1244,7 +1244,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			text-decoration: none;
 			outline: none;
 		}
-	}	
+	}
 }
 
 

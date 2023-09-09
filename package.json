@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build:css": "node-sass /public/sass/style.css /public/css/style.css"
   },
   "repository": {
     "type": "git",
